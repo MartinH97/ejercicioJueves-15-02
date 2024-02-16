@@ -1,4 +1,7 @@
 *{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
     //Importante, en todo proyecto va esta propiedad
     box-sizing: border-box;
 }
@@ -6,10 +9,38 @@
 body{
     background: #222;
 }
-.box{
-    width: 400px;
-    height: 200px;
-    background-color: rgb(59, 59, 151);
-    border: 1px solid white;
-    padding: 20px;
+.boxes{
+    h1{
+        width: 400px;
+        text-align: center;
+        color: white;
+        padding-bottom: 5px;
+        border-bottom: 1px solid white;
+        margin-bottom: 40px;
+    }
+    .box1{
+        width: 400px;
+        height: 200px;
+        background: #3b3b97;
+        border: 1px solid white;
+        p{
+            font-size: 30px;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+    .box2{
+        width: 400px;
+        height: 200px;
+        background: #933690;
+        border: 1px solid white;
+        margin-top: -100px;
+        p{
+            font-size: 30px;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
 }

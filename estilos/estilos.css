@@ -1,4 +1,7 @@
 * {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -6,10 +9,36 @@ body {
   background: #222;
 }
 
-.box {
+.boxes h1 {
+  width: 400px;
+  text-align: center;
+  color: white;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+  margin-bottom: 40px;
+}
+.boxes .box1 {
   width: 400px;
   height: 200px;
-  background-color: rgb(59, 59, 151);
+  background: #3b3b97;
   border: 1px solid white;
-  padding: 20px;
+}
+.boxes .box1 p {
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.boxes .box2 {
+  width: 400px;
+  height: 200px;
+  background: #933690;
+  border: 1px solid white;
+  margin-top: -100px;
+}
+.boxes .box2 p {
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
 }/*# sourceMappingURL=estilos.css.map */
