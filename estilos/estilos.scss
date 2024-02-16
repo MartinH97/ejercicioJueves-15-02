@@ -4,43 +4,88 @@
     padding: 0px;
     //Importante, en todo proyecto va esta propiedad
     box-sizing: border-box;
+    color: white;
 }
 
 body{
     background: #222;
+    height: 300vh;
 }
-.boxes{
-    h1{
-        width: 400px;
-        text-align: center;
-        color: white;
-        padding-bottom: 5px;
-        border-bottom: 1px solid white;
-        margin-bottom: 40px;
-    }
-    .box1{
-        width: 400px;
-        height: 200px;
-        background: #3b3b97;
-        border: 1px solid white;
-        p{
-            font-size: 30px;
-            color: white;
-            text-transform: uppercase;
-            text-align: center;
-        }
-    }
-    .box2{
-        width: 400px;
-        height: 200px;
-        background: #933690;
-        border: 1px solid white;
-        margin-top: -100px;
-        p{
-            font-size: 30px;
-            color: white;
-            text-transform: uppercase;
-            text-align: center;
-        }
+
+.box1{
+    width: 400px;
+    height: 200px;
+    border: 1px solid white;
+    background: skyblue;
+
+    z-index: 1;
+
+    //relative casi siempre se usan con los elementos padre del elemento//
+    //position relative es el quien activa al absolute//
+    position: relative;
+    h2{
+        background: red;
+        width: 50px;
+        height: 50px;
+        
+        color: red;
+        position: fixed;
+        right: 25px;
+        bottom: 25px;
+        border-radius: 50px 50px 50px 50px;
+        -webkit-border-radius: 50px 50px 50px 50px;
+        -moz-border-radius: 50px 50px 50px 50px;
+        -ms-border-radius: 50px 50px 50px 50px;
+        -o-border-radius: 50px 50px 50px 50px;
     }
 }
+
+.box2{
+    width: 400px;
+    height: 200px;
+    border: 1px solid white;
+    background: rgb(58, 58, 186);
+    position: absolute;
+    top: 50px;
+    left: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
