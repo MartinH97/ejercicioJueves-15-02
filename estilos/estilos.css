@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(59, 59, 151);
+  border: 1px solid white;
+  padding: 20px;
+}/*# sourceMappingURL=estilos.css.map */
